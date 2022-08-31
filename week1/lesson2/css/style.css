@@ -1,0 +1,25 @@
+.wrapper{
+    width: 1200px;
+}
+.title{
+    text-align: center;
+}
+.text-1{
+    font-size: 18px;
+    background-color: grey;
+    margin: 50px 35px 70px;
+    /* padding: 50px 20px 70px 35px; */
+    /* border: 3px solid black; */
+}
+.text-2{
+    font-size: 20px;
+    background-color: grey;
+    margin-left: 20px;
+}
+.text-3{
+    font-style: italic;
+}
+.text-4{
+    text-align: right;
+    font-size: 14px;
+}

@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  color:#fff;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper{
+  background-image: url("../images/bg.png");
+  min-height: 100vh;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  padding-top: 46px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 240px;
+}
+.menu ul{
+  display: flex;
+  margin-left: 35px;
+}
+.menu li+li{
+  margin-left: 25px;
+}
+.menu a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 24px;
+  line-height: 30px;
+}
+.slick-dots{
+  list-style-type: none;
+  display: flex;
+}
+.slick-dots li+li{
+  margin-left: 20px;
+}
+.slick-dots button{
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border:none;
+  background-color:#fff;
+  border-radius: 50%;
+}
+.title{
+font-size: 120px;
+line-height: 141px;
+font-weight: 400;
+margin-bottom: 15px;
+}
+.text{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 674px;
+  margin-bottom: 46px;
+}
+.slick-active button{
+  border: 4px solid #ab7700;
+}

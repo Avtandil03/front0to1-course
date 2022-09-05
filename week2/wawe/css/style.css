@@ -131,7 +131,7 @@ body {
 }
 
 .menu__list-item :hover {
-  padding-bottom: 7px;
+  padding-bottom: px;
     border-bottom: 2px solid #00b2a0;
   
 }

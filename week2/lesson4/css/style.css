@@ -69,6 +69,24 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.title::after {
+  content: "/";
+  font-size: 72px;
+  line-height: 85px;
+  position: absolute;
+  color: #00B2A0;
+}
+
 .header {
   height: 100vh;
   background-repeat: no-repeat;
@@ -151,25 +169,7 @@ body {
   padding: 190px 0 170px;
 }
 
-.about__title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: 0.6px;
-  text-align: center;
-  margin-bottom: 100px;
-}
 
-.about__title::after {
-  content: "/";
-  font-family: 'Raleway';
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 85px;
-  position: absolute;
-  color: #00B2A0;
-}
 
 .about__text {
   letter-spacing: 0.6px;
@@ -177,4 +177,110 @@ body {
   row-gap: 30px;
   column-gap: 120px;
   grid-template-columns: 1fr 1fr;
+}
+
+.benefits {
+  background-color: #f8f8f8;
+  padding: 200px 0;
+}
+
+.benefits__inner {}
+
+.benefits__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits__item {
+  max-width: 350px;
+  margin-bottom: 102px;
+}
+
+.benefits__item-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+}
+
+.benefits__item-title--sun::before {
+  background-image: url("../images/sun.svg");
+}
+
+.benefits__item-title--airplane::before {
+  background-image: url("../images/airplane.svg");
+}
+
+.benefits__item-title--serfing::before {
+  background-image: url("../images/serfing.svg");
+}
+
+.benefits__item-title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.benefits__info {
+  display: flex;
+}
+
+.benefits__info>div {
+  width: 100%;
+}
+
+.benefits__info-item {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.benefits__statistic {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+  width: 300px;;
+}
+
+.benefits__statistic::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/statistic.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 15px;
+  margin-right: 10px;
+  width: calc(100% - 53px);
+}
+
+.benefits__statistic-text,
+.benefits__info-text {
+  letter-spacing: 0.6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.features{
+  background-image: url("../images/features.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 200px 0 317px;
+}
+
+.features__title{
+  text-align: left;
+}
+
+.features__text p {
+  margin-bottom: 30px;
+  max-width: 507px;
+  letter-spacing: 0.6px;
 }

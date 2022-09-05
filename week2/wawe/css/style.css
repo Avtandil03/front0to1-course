@@ -130,11 +130,15 @@ body {
   letter-spacing: 0.6px;
 }
 
+.menu__list-item :hover {
+  padding-bottom: 7px;
+    border-bottom: 2px solid #00b2a0;
+  
+}
+
 .menu__list-item+.menu__list-item {
   margin-left: 45px;
 }
-
-.header__content {}
 
 .header__content-inner {
   padding-top: 22.5vh;
@@ -245,7 +249,8 @@ body {
   font-size: 24px;
   line-height: 23px;
   letter-spacing: 0.6px;
-  width: 300px;;
+  width: 300px;
+  ;
 }
 
 .benefits__statistic::before {
@@ -267,7 +272,7 @@ body {
   justify-content: space-between;
 }
 
-.features{
+.features {
   background-image: url("../images/features.png");
   background-position: top right;
   background-repeat: no-repeat;
@@ -275,7 +280,7 @@ body {
   padding: 200px 0 317px;
 }
 
-.features__title{
+.features__title {
   text-align: left;
 }
 

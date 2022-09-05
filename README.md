@@ -5,4 +5,4 @@
   - project1 - https://avtandil03.github.io/front0to1-course/week1/project1
   - homework3 - https://avtandil03.github.io/front0to1-course/week1/homework3
   - marketing - https://avtandil03.github.io/front0to1-course/week2/marketing
-  - homework4 - https://avtandil03.github.io/front0to1-course/week2/homework4
+  - wawe - https://avtandil03.github.io/front0to1-course/week2/wawe

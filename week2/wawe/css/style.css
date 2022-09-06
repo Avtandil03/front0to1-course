@@ -167,8 +167,6 @@ body {
   width: max-content;
 }
 
-.about {}
-
 .about__inner {
   padding: 190px 0 170px;
 }
@@ -187,8 +185,6 @@ body {
   background-color: #f8f8f8;
   padding: 200px 0;
 }
-
-.benefits__inner {}
 
 .benefits__items {
   display: flex;

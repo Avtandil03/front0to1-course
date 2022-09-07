@@ -309,6 +309,28 @@ body {
   margin-bottom: 67px;
 }
 
+.portfolio__filter-btn{
+  margin-right: 40px;
+}
+
+.portfolio__btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  border: none;
+  background-color: transparent;
+  color:#333333;
+  padding: 5px;
+  margin-right: 25px;
+  outline: none;
+}
+
+.mixitup-control-active {
+  border-bottom: 2px solid #FCBB08;
+}
+
 .magic__text p {
   margin-bottom: 25px;
 }
@@ -399,7 +421,7 @@ body {
   color: #242121;
 }
 
-.portfolio__numbers-item span{  
+.portfolio__numbers-item span {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
